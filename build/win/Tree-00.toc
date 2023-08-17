@@ -1,0 +1,5 @@
+('scr\\',
+ None,
+ ['*.py', '*.pyc'],
+ 'DATA',
+ [('gis.ico', 'scr\\gis.ico', 'DATA')])
