@@ -14,9 +14,9 @@ pip install cython
 RecursionError: maximum recursion depth exceeded while calling a Python object  
 полный лог ошибки в файле error.txt
 
-Я так понимаю проблема в win.spec?  
 
-Возможно нашел решение этой проблемы:  
+
+Возможно нашел решение:  
 python -m pip uninstall pyinstaller  
 python -m pip install -U pyinstaller==5.6.2  
 python -m pip install pyinstaller-hooks-contrib==2022.14
